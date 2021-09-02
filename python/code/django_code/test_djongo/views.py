@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from .models import *
+from django.template import  Template,Context
 
 # Create your views here.
 def index(request):
@@ -10,6 +11,26 @@ def index(request):
 def book(request,i,D):
 
   return HttpResponse('Boox info %s,%s'%(i,D))
+
+
+
+# Django Template Context 使用
+def query(request):
+
+    # 创建模板
+    C_Template = Template("<h1>hello {{ name }}</h1>")
+
+    # 实例化Context 生成模板
+    C_Context = Context({"name": 123})
+
+    C_Context = C_Template.render(C_Context)
+
+    # Django 的render 就是实例化好 templates 静态文件，然后实例化Context 从而生成了最终的 浏览器能识别的内容调用HttpResponse返回
+
+    print(C_Context)
+    return  HttpResponse(C_Context)
+
+
 
 
 def login(request):
@@ -24,14 +45,17 @@ def login(request):
     # oj1 = Bookinfo("西游记",100)
     # oj2 = Bookinfo("红楼梦",200)
     # oj3 = Bookinfo("水浒传",300)
-
-    # Book_list = [ oj1, oj2, oj3 ]
-
+    #
+    # Book_list = []
+    #
 
     # 获取所有书籍信息
     Book_List = Book.objects.all()
-
-    print(Book_List)
+    #
+    # for i in Book_List:
+    #
+    #     Book_list.append(i)
+    # print(Book_List)
 
     return render(request,'login.html',locals())
     # return HttpResponse("login")
@@ -117,6 +141,26 @@ def mysql_add_publish(request):
 
 
     return  HttpResponse('add_sql')
+
+
+def registered(request):
+
+    if request.method == "GET":
+
+
+        # locals()   // 获取局部变量信息
+        return  render(request,"registered.html")
+
+
+    else:
+        # 获取URL 路径
+        print(request.path)
+        # 获取URL 路径，如果有参数信息会显示
+        print(request.get_full_path())
+
+
+        return  redirect("/app/")
+        # return  HttpResponse("ok")
 
 
 

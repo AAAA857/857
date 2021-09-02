@@ -8,7 +8,9 @@ urlpatterns = [
     path('mysql-add-publish/',views.mysql_add_publish),
     path('mysql-add-author/',views.mysql_add_author),
     path('mysql-add-book/',views.mysql_add_book),
-    path('',views.login)
+    path('registered/',views.registered, name='reg'),
+    path('',views.login),
+    path('query/',views.query)
 
 
 ]

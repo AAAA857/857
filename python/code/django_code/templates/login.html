@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+
+        .read {
+
+            background-color: red;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+{% extends 'main.html' %}
+
+{% block test %}
+
+<div>
+         <table class="table table-bordered">
+             <tr>
+                 <th>序号</th>
+                 <th>书籍名称</th>
+                 <th>价格</th>
+                 <th>出版社</th>
+             </tr>
+
+             {% for book in Book_list %}
+
+                 {% if book.money > 200 %}
+                     <tr class="read">
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ book.book_name }}</td>
+                        <td>{{ book.book_money}}</td>
+                        <td>{{ book.book_publish }}</td>
+                     </tr>
+                 {% else %}
+                     <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ book.book_name}}</td>
+                        <td>{{ book.book_money }}</td>
+                        <td>{{ book.book_publish }}</td>
+                     </tr>
+                 {% endif %}
+
+             {% endfor %}
+
+         </table>
+     </div>
+
+{% endblock %}
+
+</body>
+</html>

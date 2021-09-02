@@ -10,7 +10,8 @@ urlpatterns = [
     path('mysql-add-book/',views.mysql_add_book),
     path('registered/',views.registered, name='reg'),
     path('',views.login),
-    path('query/',views.query)
+    path('query/',views.query),
+    path('curl/',views.Curl)
 
 
 ]

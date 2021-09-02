@@ -3,6 +3,13 @@ from django.http import HttpResponse
 from .models import *
 from django.template import  Template,Context
 
+# 爬虫模块
+import urllib.request
+import urllib3
+import requests
+
+
+
 # Create your views here.
 def index(request):
 
@@ -31,6 +38,45 @@ def query(request):
     return  HttpResponse(C_Context)
 
 
+
+
+
+# urlib 初始
+
+def Curl(request):
+    # urllib
+    # 打开指定的爬取网页
+    # response = urllib.request.urlopen("http://www.baidu.com")
+    # # 获取打开网页的内容
+    # html = response.read()
+    # print(html)
+
+    '''
+    # urllib3
+    # 特性
+    线程安全
+    连接池
+    ssl/tls 验证
+    '''
+
+    # 创建PoolManager对象，用于处理线程池的链接于安全的所有细节
+    http = urllib3.PoolManager()
+
+    # 爬取网页
+    # response = http.request('GET','http://www.baidu.com')
+    # html = response.data
+
+
+    # 获取指定数据
+    P_response = http.request(
+        'POST',
+        'http://127.0.0.1:8000/app/registered/',
+        fields={'word': 'hello'}
+    )
+
+    print(P_response)
+
+    return HttpResponse("curl")
 
 
 def login(request):
@@ -96,7 +142,6 @@ def mysql_add_book(request):
     ]
     for i in Book_List:
 
-
         Create_Book = Book.objects.create(book_name=i,book_date="2021-08-08",book_publish_id=1)
         # 创建1对1 作者邮箱地址
         Create_Emaill = Book_Author_Emaill.objects.create(emaill="17600169910@163.com")
@@ -154,10 +199,14 @@ def registered(request):
 
     else:
         # 获取URL 路径
+        print("POST")
         print(request.path)
-        # 获取URL 路径，如果有参数信息会显示
-        print(request.get_full_path())
 
+        print(request.POST.get('word'))
+        # 获取URL 路径，如果有参数信息会显示
+        # print(request.get_full_path())
+        #
+        # print(request.GET.get('word'))
 
         return  redirect("/app/")
         # return  HttpResponse("ok")

@@ -6,6 +6,7 @@
 
 Elasticsearch_Adderss=""
 Elasticsearch_Port=""
+Elasticsearch_node=""
 
 
 
@@ -25,7 +26,7 @@ curl -XPOST -H 'Content-Type: application/json' http://${Elasticsearch_Adderss}:
 
                                 "index": "'$1'", 
                                 "shard": '$2',
-                                "node": "aicp-es-elasticsearch-data-2",
+                                "node": "'${Elasticsearch_node}'",
                                 "accept_data_loss": true
 
 

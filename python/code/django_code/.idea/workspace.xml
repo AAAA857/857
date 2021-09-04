@@ -34,6 +34,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../../../git/Public/python-course/项目" />
+      <recent name="$PROJECT_DIR$/../../../../git/Public/python-course/Python" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProject" />
@@ -59,7 +65,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,7 +81,8 @@
       <workItem from="1630561466604" duration="210000" />
       <workItem from="1630561714331" duration="337000" />
       <workItem from="1630563652330" duration="7327000" />
-      <workItem from="1630640991006" duration="309000" />
+      <workItem from="1630640991006" duration="1249000" />
+      <workItem from="1630642311101" duration="758000" />
     </task>
     <servers />
   </component>
@@ -83,6 +90,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="106" y="123" width="1040" height="577" key="DiffContextDialog" timestamp="1630642547565">
+      <screen x="0" y="23" width="1246" height="777" />
+    </state>
+    <state x="106" y="123" width="1040" height="577" key="DiffContextDialog/0.23.1246.777@0.23.1246.777" timestamp="1630642547565" />
+    <state x="106" y="123" width="1040" height="577" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1630642547566">
+      <screen x="0" y="23" width="1246" height="777" />
+    </state>
+    <state x="106" y="123" width="1040" height="577" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1246.777@0.23.1246.777" timestamp="1630642547566" />
     <state x="304" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1630640991567">
       <screen x="0" y="23" width="1246" height="777" />
     </state>

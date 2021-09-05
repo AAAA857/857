@@ -295,9 +295,12 @@ def auth(request):
             request.session['password'] = passwrod
             request.session['time'] = a_time
 
-
-
+            '''
+            删除session 方法
+            del request.session.get('time')
+            '''
             rep = redirect('/app/')
+
 
             # '''
             # cookie 方式验证登录

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10d45114-ce09-4d5d-8883-7971a664452e" name="Default Changelist" comment="" />
+    <list default="true" id="10d45114-ce09-4d5d-8883-7971a664452e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../middleware/elasticsearch/Elasticsearch 7.6 部署方式(裸部署).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../middleware/haproxy/haproxy.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +127,7 @@
       <workItem from="1630640991006" duration="1249000" />
       <workItem from="1630642311101" duration="4396000" />
       <workItem from="1630813422948" duration="270000" />
-      <workItem from="1630814197211" duration="6479000" />
+      <workItem from="1630814197211" duration="6623000" />
     </task>
     <servers />
   </component>

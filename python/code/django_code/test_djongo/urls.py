@@ -11,7 +11,12 @@ urlpatterns = [
     path('registered/',views.registered, name='reg'),
     path('',views.login),
     path('query/',views.query),
-    path('curl/',views.Curl)
+    path('curl/',views.Curl),
+    path('add/',views.Add),
+    path('reg/',views.reg),
+    path('check/',views.check),
+    path('calculate/',views.calculate),
+    path('auth/',views.auth)
 
 
 ]

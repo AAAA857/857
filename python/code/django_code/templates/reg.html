@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+<h3>注册页面</h3>
+
+
+<p>用户名： <input type="text"><span style="color: red;" class="error"></span></p>
+
+
+<script>
+
+
+    $(":text").blur(function () {
+
+
+        // 发送ajax请求
+        $.ajax({
+            url: "/reg_auth_user/",
+            type: "post",
+            data: {
+                user: $(":text").val()
+            },
+            success: function (res) {
+
+                // 反序列化
+                res = JSON.parse(res);
+                console.log(res);
+
+                if (res.state){
+                    $(".error").html(res.err)
+                }else{
+                    $(".error").html("")
+                }
+
+            }
+        })
+
+    })
+</script>
+</body>
+</html>

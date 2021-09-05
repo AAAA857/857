@@ -1,0 +1,115 @@
+2021-04-06 11:37:50,922 - 16687 - root - INFO - abc
+2021-04-06 11:38:01,186 - 16719 - root - INFO - abc
+2021-04-06 11:38:01,188 - 16719 - root - INFO - 123456
+2021-04-06 11:38:25,296 - 16905 - root - INFO - abc
+2021-04-06 11:39:14,626 - 17109 - root - INFO - abc
+2021-04-06 11:39:14,627 - 17109 - root - ERROR - error
+2021-04-06 12:30:30,418 - 32351 - root - INFO - q23
+2021-04-06 12:31:00,813 - 32475 - root - INFO - subprocess start,cmd : 123
+2021-04-06 12:31:07,279 - 32504 - root - INFO - subprocess start,cmd : mkdir
+2021-04-06 12:36:50,183 - 34278 - root - INFO - subprocess start,cmd : ls
+2021-04-06 12:36:50,192 - 34278 - root - INFO - b'1.py\n1.txt\n__pycache__\nflask\xe7\xac\xac\xe4\xb8\x80\xe8\x8a\x82.py\nlogger.py\nshell.py\ntemplates\n'
+2021-04-06 12:36:50,193 - 34278 - root - INFO - subprocess finished,cmd : ls
+2021-04-06 12:37:03,757 - 34327 - root - INFO - subprocess start,cmd : ls
+2021-04-06 12:37:03,774 - 34327 - root - INFO - b'1.py\n1.txt\n__pycache__\nflask\xe7\xac\xac\xe4\xb8\x80\xe8\x8a\x82.py\nlogger.py\nshell.py\ntemplates\n'
+2021-04-06 12:37:03,774 - 34327 - root - INFO - subprocess finished,cmd : ls
+2021-04-06 12:37:10,824 - 34358 - root - INFO - subprocess start,cmd : mkdir /mkdir
+2021-04-06 12:38:43,087 - 34866 - root - INFO - subprocess start,cmd : ls /
+2021-04-06 12:48:58,261 - 37948 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 12:48:58,277 - 37948 - root - INFO - b'Applications\nLibrary\nNetwork\nSystem\nUsers\nVolumes\na\nbin\ncores\ndefault.profraw\ndev\netc\nhome\ninstaller.failurerequests\nnet\nopt\nprivate\nsbin\ntmp\ntools\nusr\nvar\n'
+2021-04-06 12:48:58,281 - 37948 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 12:49:34,891 - 38173 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 12:49:34,912 - 38173 - root - INFO - b'Applications\nLibrary\nNetwork\nSystem\nUsers\nVolumes\na\nbin\ncores\ndefault.profraw\ndev\netc\nhome\ninstaller.failurerequests\nnet\nopt\nprivate\nsbin\ntmp\ntools\nusr\nvar\n'
+2021-04-06 12:49:34,917 - 38173 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 12:50:36,515 - 38504 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 12:50:48,727 - 38557 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:08:08,593 - 43884 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:08:31,935 - 44059 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:09:19,730 - 44333 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:09:19,745 - 44333 - root - INFO - (None, None)
+2021-04-06 13:10:21,171 - 44590 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:10:42,319 - 44688 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:10:42,327 - 44688 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:10:42,327 - 44688 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:12:26,484 - 45238 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:12:26,490 - 45238 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:12:26,491 - 45238 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:13:36,982 - 45588 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:13:37,021 - 45588 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:13:37,022 - 45588 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:17:20,333 - 46765 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:17:35,649 - 46836 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:17:56,568 - 46907 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:17:56,593 - 46907 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:17:56,593 - 46907 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:19:52,578 - 47460 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:19:52,602 - 47460 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:19:52,603 - 47460 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:20:04,502 - 47505 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:20:04,517 - 47505 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:20:04,518 - 47505 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:20:26,543 - 47686 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:20:26,551 - 47686 - root - INFO - 123 action cmd ['ls', '/']
+2021-04-06 13:20:26,551 - 47686 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:20:41,649 - 47758 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:20:41,670 - 47758 - root - INFO - 123 action cmd ['ls', '/']
+2021-04-06 13:20:41,672 - 47758 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:21:02,934 - 47851 - root - INFO - subprocess start,cmd : ['ls', 'asdkasdlk']
+2021-04-06 13:21:02,956 - 47851 - root - INFO - action cmd ['ls', 'asdkasdlk']
+2021-04-06 13:21:02,958 - 47851 - root - INFO - subprocess finished,cmd : ['ls', 'asdkasdlk']
+2021-04-06 13:22:03,132 - 48149 - root - INFO - subprocess start,cmd : ['ls', 'asdkasdlk']
+2021-04-06 13:22:03,138 - 48149 - root - INFO - action cmd ['ls', 'asdkasdlk']
+2021-04-06 13:22:03,139 - 48149 - root - INFO - subprocess finished,cmd : ['ls', 'asdkasdlk']
+2021-04-06 13:22:11,913 - 48198 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:22:11,951 - 48198 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:22:11,954 - 48198 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:22:14,358 - 48208 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:22:14,373 - 48208 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:22:14,377 - 48208 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:22:29,440 - 48297 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:22:29,447 - 48297 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:22:29,447 - 48297 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:23:08,275 - 48447 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:23:08,297 - 48447 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:23:08,298 - 48447 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:23:20,054 - 48606 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:23:20,066 - 48606 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:23:20,066 - 48606 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:23:38,421 - 48687 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:23:38,445 - 48687 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:23:38,445 - 48687 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:23:44,738 - 48719 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:23:44,744 - 48719 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:23:44,744 - 48719 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:24:02,564 - 48794 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:24:02,572 - 48794 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:24:02,573 - 48794 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:24:11,313 - 48839 - root - INFO - subprocess start,cmd : ['ls', '/']
+2021-04-06 13:24:11,326 - 48839 - root - INFO - action cmd ['ls', '/']
+2021-04-06 13:24:11,326 - 48839 - root - INFO - subprocess finished,cmd : ['ls', '/']
+2021-04-06 13:24:47,156 - 49015 - root - INFO - subprocess start,cmd : ['mkdir', '/home/Baidu/l123']
+2021-04-06 13:24:47,255 - 49015 - root - INFO - action cmd ['mkdir', '/home/Baidu/l123']
+2021-04-06 13:24:47,256 - 49015 - root - INFO - subprocess finished,cmd : ['mkdir', '/home/Baidu/l123']
+2021-04-06 13:25:16,251 - 49158 - root - INFO - subprocess start,cmd : ['mkdir', '/Users/baidu/l123']
+2021-04-06 13:25:16,263 - 49158 - root - INFO - action cmd ['mkdir', '/Users/baidu/l123']
+2021-04-06 13:25:16,264 - 49158 - root - INFO - subprocess finished,cmd : ['mkdir', '/Users/baidu/l123']
+2021-04-06 13:25:57,019 - 49389 - root - INFO - subprocess start,cmd : ['mkdir', '/123']
+2021-04-06 13:25:57,044 - 49389 - root - INFO - action cmd ['mkdir', '/123']
+2021-04-06 13:25:57,049 - 49389 - root - INFO - subprocess finished,cmd : ['mkdir', '/123']
+2021-04-06 13:26:52,812 - 49689 - root - INFO - subprocess start,cmd : ['mkdir', '/123']
+2021-04-06 13:26:52,829 - 49689 - root - INFO - action cmd ['mkdir', '/123']
+2021-04-06 13:26:52,829 - 49689 - root - INFO - subprocess finished,cmd : ['mkdir', '/123']
+2021-04-06 13:27:23,781 - 49894 - root - INFO - subprocess start,cmd : ['mkdir', '/123']
+2021-04-06 13:27:23,791 - 49894 - root - INFO - action cmd ['mkdir', '/123']
+2021-04-06 13:27:23,791 - 49894 - root - INFO - <subprocess.Popen object at 0x10ecb4890>
+2021-04-06 13:27:23,792 - 49894 - root - INFO - subprocess finished,cmd : ['mkdir', '/123']
+2021-04-06 13:28:06,969 - 50064 - root - INFO - subprocess start,cmd : ['mkdir', '/123']
+2021-04-06 13:28:06,991 - 50064 - root - INFO - action cmd ['mkdir', '/123']
+2021-04-06 13:28:06,995 - 50064 - root - INFO - subprocess finished,cmd : ['mkdir', '/123']
+2021-04-06 13:29:42,570 - 50604 - root - INFO - subprocess start,cmd : ls /
+2021-04-06 13:29:42,580 - 50604 - root - INFO - action cmd ls /
+2021-04-06 13:29:42,580 - 50604 - root - INFO - subprocess finished,cmd : ls /
+2021-04-06 13:31:46,373 - 51175 - root - INFO - subprocess start,cmd : ls /
+2021-04-06 13:31:51,895 - 51203 - root - INFO - subprocess start,cmd : ls /
+2021-04-06 13:31:51,944 - 51203 - root - INFO - action cmd ls /
+2021-04-06 13:31:51,945 - 51203 - root - INFO - subprocess finished,cmd : ls /

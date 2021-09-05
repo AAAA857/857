@@ -1,0 +1,6 @@
+zabbix:123456
+yintiecheng:123456
+hehe:123
+l:123
+root:123
+yintiecheng:123456

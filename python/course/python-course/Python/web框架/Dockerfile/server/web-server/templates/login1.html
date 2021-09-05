@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../static/Login.css"/>
+    <style>
+        .h {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<div>
+
+<div id="login">
+        <h1>Login</h1>
+
+        <form action="/" method="post">
+            <input type="text" required="required" placeholder="用户名" name="user"></input>
+            <input type="password" required="required" placeholder="密码" name="pwd"></input>
+            <button class="but" type="submit">登录</button>
+        </form>
+</div>
+
+<div id="registered" class="h">
+
+    <form action="/Registered/" method="GET">
+
+        <button class="but1" type="submit">注册</button>
+
+    </form>
+
+</div>
+
+</div>
+</body>
+</html>

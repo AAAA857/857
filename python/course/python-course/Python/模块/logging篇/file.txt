@@ -1,0 +1,3 @@
+INFO - info - 2021-07-06 17:36:12,178 - /Users/baidu/Desktop/目录/liantong/Python/模块/logging篇/输入到文件.py
+ERROR - error - 2021-07-06 17:36:12,178 - /Users/baidu/Desktop/目录/liantong/Python/模块/logging篇/输入到文件.py
+WARNING - warning - 2021-07-06 17:36:12,178 - /Users/baidu/Desktop/目录/liantong/Python/模块/logging篇/输入到文件.py

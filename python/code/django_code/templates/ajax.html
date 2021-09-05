@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax</title>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+
+{#    {% load static %}#}
+{#    <script type="text/javascript" src="{% static 'jq/jquery.js' %}"></script>#}
+{#    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">#}
+{#    <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>#}
+</head>
+<body>
+
+<form action="" method="post">
+    <div class="action1">
+
+        用户名<input type="text" class="reg">
+
+    </div>
+
+</form>
+<div class="action2">
+
+        <input type="text" class="number1"><span>+</span><input type="text" class="number2"><span>=</span><input
+        type="text" class="sum"><button></button>
+
+</div>
+
+<script>
+
+    $(':button').click(function () {
+
+        $.ajax(
+        {
+            url: "/app/calculate/",
+            type: "post",
+            data: {
+                number1: $('.number1').val(),
+                number2: $('.number2').val()
+            },success: function (res) {
+
+                {#res = JSON.parse(res);#}
+                console.log(res);
+                $('.sum').val(res)
+
+            },error: function (res) {
+
+                alert("123")
+
+            }
+
+        }
+    );
+        {#$('.sum').html(res)#}
+    });
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

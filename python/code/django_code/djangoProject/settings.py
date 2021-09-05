@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'test_djongo'
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -153,3 +154,4 @@ STATICFILES_DIRS = (
 
 )
 
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'

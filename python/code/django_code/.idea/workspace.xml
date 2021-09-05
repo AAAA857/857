@@ -7,9 +7,43 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -31,13 +65,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/test_djongo/templatetags" />
+      <recent name="$PROJECT_DIR$/test_djongo" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/../../../../git/Public/python-course/项目" />
-      <recent name="$PROJECT_DIR$/../../../../git/Public/python-course/Python" />
     </key>
   </component>
   <component name="RunManager">
@@ -82,7 +122,9 @@
       <workItem from="1630561714331" duration="337000" />
       <workItem from="1630563652330" duration="7327000" />
       <workItem from="1630640991006" duration="1249000" />
-      <workItem from="1630642311101" duration="758000" />
+      <workItem from="1630642311101" duration="4396000" />
+      <workItem from="1630813422948" duration="270000" />
+      <workItem from="1630814197211" duration="6479000" />
     </task>
     <servers />
   </component>
@@ -90,17 +132,35 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="256" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630835580015">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state x="256" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1243.777@0.23.1243.777" timestamp="1630835580015" />
     <state x="106" y="123" width="1040" height="577" key="DiffContextDialog" timestamp="1630642547565">
       <screen x="0" y="23" width="1246" height="777" />
     </state>
     <state x="106" y="123" width="1040" height="577" key="DiffContextDialog/0.23.1246.777@0.23.1246.777" timestamp="1630642547565" />
+    <state width="234" height="457" key="HiddenNamespacesPopup" timestamp="1630835551964">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state width="234" height="457" key="HiddenNamespacesPopup/0.23.1243.777@0.23.1243.777" timestamp="1630835551964" />
+    <state x="143" y="50" key="SettingsEditor" timestamp="1630835076702">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state x="143" y="50" key="SettingsEditor/0.23.1243.777@0.23.1243.777" timestamp="1630835076702" />
     <state x="106" y="123" width="1040" height="577" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1630642547566">
       <screen x="0" y="23" width="1246" height="777" />
     </state>
     <state x="106" y="123" width="1040" height="577" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1246.777@0.23.1246.777" timestamp="1630642547566" />
-    <state x="304" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1630640991567">
-      <screen x="0" y="23" width="1246" height="777" />
+    <state x="303" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1630814196445">
+      <screen x="0" y="23" width="1241" height="777" />
     </state>
+    <state x="303" y="244" key="com.intellij.ide.util.TipDialog/0.23.1241.777@0.23.1241.777" timestamp="1630814196445" />
     <state x="304" y="244" key="com.intellij.ide.util.TipDialog/0.23.1246.777@0.23.1246.777" timestamp="1630640991567" />
+    <state x="292" y="124" width="672" height="676" key="search.everywhere.popup" timestamp="1630831546333">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state x="291" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1240.777@0.23.1240.777" timestamp="1630743732674" />
+    <state x="292" y="124" width="672" height="676" key="search.everywhere.popup/0.23.1243.777@0.23.1243.777" timestamp="1630831546333" />
   </component>
 </project>

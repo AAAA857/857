@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auth</title>
+    {% load static %}
+    <script type="text/javascript" src="{% static 'jq/jquery.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+</head>
+<body>
+
+
+<form action="/app/auth/" method="post">
+
+    <div class="auth">
+        <span>上次登录时间： {{ time }}</span>
+        账号<input type="text" name="user">
+        密码<input type="text" name="password">
+        <button>登录</button>
+
+    </div>
+</form>
+
+</body>
+</html>

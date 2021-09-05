@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <style>
+        .The-pulley{
+
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            background-color: pink;
+        }
+
+        body {
+            padding: 0 0 0;
+        }
+        .h{
+
+            width: 100%;
+            height: 60px;
+            display: none;
+
+        }
+        .div1 {
+
+            height: 100%;
+            width: 900px;
+            float: left;
+
+        }
+        .select{
+
+
+            padding-top: 10px;
+            padding-right: 10px;
+            float: right;
+
+
+        }
+        .medata a {
+
+            font-family: 微软雅黑;
+            font-size: 20px;
+            padding-top: 16px;
+            padding-right: 10px;
+
+        }
+        .txt{
+
+            border: 1px solid red;
+            display: block;
+            height: 100%;
+            width: 350px;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+<script>
+    $('#example').popover('show');
+    $('.The-pulley').click(function () {
+        document.documentElement.scrollTop = 0;
+
+    });
+        global_dict = {};
+        flag = "";
+        $('#select-info').click(function () {
+
+            var info = $(this).parent().find('input').val();
+
+            if (info)   {
+                $.ajax(
+                    {
+                        url: "/select/",
+                        type: "POST",
+                        async: false,
+                        data: {
+
+                            info: info,
+
+                        }, success: function (data) {
+
+                            var j = JSON.parse(data);
+                            console.log(j);
+
+                            $('#tbList').empty();
+                            var th = "<table class=\"table table-hover\" id=\"tbList\"><tr>\n" +
+                                "                <th>ID</th>\n" +
+                                "                <th>IP</th>\n" +
+                                "                <th>目录权限</th>\n" +
+                                "                <th>目录是否存在</th>\n" +
+                                "                <th>操作</th>\n" +
+                                "            </tr></table>";
+                            var td = "<tr><td>" + j.id + "</td><td>" + j.client + "</td><td>" + j.permissions + "</td><td>" + j.directory + "</td><td><button class=\"btn btn-info\" id=\"case\" data-target=\"#myModal\" data-toggle=\"modal\" >拉取文件</button></td></tr>";
+                            $('#tbList').append(th);
+                            $('#tbList').append(td);
+                        }
+                    }
+                );
+            }else {
+
+                window.location.reload();
+
+            }
+
+            $("#select-info").parent().find('input').val("");
+
+        });
+
+        var t = [];
+        var add_array = [];
+
+            $('table').on("click","#adda", function () {
+                        alert("确认新增吗?");
+                        var f = $(this).parent().siblings();
+                        var l = f.length;
+                        var num = "";
+                        for (var i = 0; i < l; i++) {
+                            if ($(f[i]).text()) {
+                                add_array.push($(f[i]).text());
+                                var num = num + $(f[i]).text() + " ";
+                            }
+                        }
+                            console.log("addd----",add_array);
+                        var add_dict = {
+                              "id": add_array[0],
+                              "client": add_array[1],
+                              "permissions": add_array[2],
+                              "directory": add_array[3],
+                              "action": "add"
+                          };
+
+                            $.ajax(
+
+                                {
+                                    url: "/add/",
+                                    type: "POST",
+                                    dataType:'json',
+                                    data: {
+                                        info: JSON.stringify(add_dict),
+                                    },
+                                    success: function () {
+                                        alert("新增成功");
+                                },
+                                }
+
+                            );
+
+                        $('.progress-bar').removeClass("h");
+                        $('#myModal').modal("hide");
+                        $('#ind').val("");
+                        var add_dict = {};
+                        add_array = []
+                        });
+
+            var case_array = [];
+
+            $('table').on("click","#case", function (){
+
+                var k =$(this).parent().siblings();
+
+                var p = k.length;
+
+                  for (var i = 0; i < p; i++) {
+                      if ($(k[i]).text()){
+                          case_array.push($(k[i]).text())
+                      }
+                }
+              console.log(case_array)
+
+            });
+            $('#commit').click(function () {
+
+                    global_dict["Directory_path"] = $("#ind").val();
+                    global_dict["Directory_ip"] = $("#inip").val();
+                    global_dict["Directory_user"] = $("#inu").val();
+                    global_dict["Directory_password"] = $("#inp").val();
+                    global_dict["Directory_file"] = $("#inf").val()
+                    var new_dict = {
+                        "id": case_array[0],
+                        "client": case_array[1],
+                        "permissions": case_array[2],
+                        "directory": case_array[3],
+                        "remote_ip": global_dict.Directory_ip,
+                        "directory_path": global_dict.Directory_path,
+                        "Directory_user": global_dict.Directory_user,
+                        "Directory_password": global_dict.Directory_password,
+                        "Directory_file": global_dict.Directory_file,
+                        "action": "case"
+                    };
+                    console.log(new_dict);
+                    $.ajax(
+                        {
+                            url: "/case/",
+                            type: "POST",
+                            async: false,
+                            dataType: 'json',
+                            data: {
+                                info: JSON.stringify(new_dict)
+                            }, success: function (data) {
+                                console.log(data)
+                            }
+                        });
+                    $('#myModal').modal("hide");
+                    $('#ind').val("");
+                    var new_dict = {};
+                    case_array = [];
+                });
+</script>
+</body>
+</html>

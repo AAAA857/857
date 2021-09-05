@@ -2,11 +2,12 @@ from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from .models import *
 from django.template import  Template,Context
-
+import  json
 # 爬虫模块
 import urllib.request
 import urllib3
 import requests
+import time
 
 
 
@@ -211,7 +212,107 @@ def registered(request):
         return  redirect("/app/")
         # return  HttpResponse("ok")
 
+'''
+template 自定义filter方法
+'''
+def Add(request):
+
+    c = "A"
+    sum = 100
+
+    return  render(request,'test.html',locals())
+
+
+
+def reg(request):
+
+
+    return render(request,'ajax.html')
+
+
+def check(request):
+
+    status = {"status": True}
+
+    return HttpResponse(json.dumps(status))
+
+
+def calculate(request):
+
+    status = json.dumps({ "sum": None})
+    data1 = int(request.POST.get('number1'))
+    data2 = int(request.POST.get('number2'))
+
+    sum = data2 + data1
+    #
+    # print(data)
+
+    return  HttpResponse(sum)
+
+
+
+def auth(request):
+
+
+    '''
+    GET 请求返回登录页面
+
+    :param request:
+    :return:
+    '''
+    if request.method == "GET":
+
+        '''
+        添加session 属性
+        '''
+
+
+
+        d = request.session.get('time')
+
+        print(d)
+
+        return render(request,'auth.html',{'time': d})
+
+    else:
+
+        '''
+        获取账号密码
+        '''
+        user = request.POST.get('user')
+        passwrod = request.POST.get('password')
+
+        print(user,passwrod)
+        if user == "yin" and passwrod == "123":
+
+            '''
+            session 方式验证
+            '''
+
+            a_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+            print(a_time)
+            request.session['username'] = user
+            request.session['password'] = passwrod
+            request.session['time'] = a_time
+
+
+
+            rep = redirect('/app/')
+
+            # '''
+            # cookie 方式验证登录
+            # '''
+            # rep.set_signed_cookie("is_login", "1", salt="ban", max_age=100)
 
 
 
 
+
+
+
+            return rep
+
+          # return rep
+        else:
+
+            return redirect('/auth/')

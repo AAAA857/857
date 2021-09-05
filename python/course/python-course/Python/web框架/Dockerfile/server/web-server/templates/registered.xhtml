@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../static/registered.css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+</head>
+    <body>
+        <form   action="/Registered/" method="POST">
+            <div>
+                <div  style="float: right;display: none;" id="count-down">
+                <span style="padding-right: 30px"><label id="timedown">3</label>秒后将跳转至主页</span>
+                </div>
+                <h3>注册</h3>
+
+                <p><input type="text" required="required" placeholder="用户名" name="user"></input></p>
+                 <p><input type="password" required="required" placeholder="密码" name="pwd"></input></p>
+
+                <p>
+                    <input id="reg" type="submit" value="立即注册" onclick="action2(this)" />
+                </p>
+                <p>
+                    已有账号？<a href="/">请登录</a>
+                </p>
+            </div>
+        </form>
+
+
+
+    </body>
+<script>
+
+        function action2(self) {
+
+            window.location="/"
+
+        }
+
+</script>
+
+
+</html>

@@ -1,0 +1,7 @@
+2021-04-06 13:33:54,591 - 51836 - root - INFO - subprocess start,cmd : ls /
+2021-04-06 13:33:54,628 - 51836 - root - INFO - action cmd ls /
+2021-04-06 13:33:54,632 - 51836 - root - INFO - subprocess finished,cmd : ls /
+2021-04-06 13:38:11,972 - 53095 - werkzeug - INFO -  * Running on http://127.0.0.1:8811/ (Press CTRL+C to quit)
+2021-04-06 13:38:11,978 - 53095 - werkzeug - INFO -  * Restarting with stat
+2021-04-06 13:38:13,038 - 53098 - werkzeug - WARNING -  * Debugger is active!
+2021-04-06 13:38:13,050 - 53098 - werkzeug - INFO -  * Debugger PIN: 303-545-143

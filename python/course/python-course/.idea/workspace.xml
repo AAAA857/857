@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e99b190-98a1-431a-8c12-abc160e514e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="liantong" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1o0NzK3iKLFFDV8wo6ZMauG8zhW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web框架/Dockerfile/agent" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web框架/Dockerfile/agent" />
+      <recent name="$PROJECT_DIR$/web框架/Dockerfile/server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.rotation">
+    <configuration name="集合" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="liantong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/基础类型" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/基础类型/集合.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="读取文件案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="liantong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/模块/logging篇" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/模块/logging篇/读取文件案例.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="生成器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="liantong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/模块/生成器&amp;迭代器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/模块/生成器&amp;迭代器/生成器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="阻塞与非阻塞" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="liantong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/网络" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/网络/阻塞与非阻塞.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="同步锁" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="liantong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络/同步锁.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="进程池" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="liantong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络/进程池.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="协程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="liantong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/网络" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/网络/协程.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="filter类型" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="liantong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/模块/logging篇" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/模块/logging篇/filter类型.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rotation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="liantong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/项目/log_rotation/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/项目/log_rotation/main/rotation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="liantong" type="Python.DjangoServer" factoryName="Django server">
+      <module name="liantong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.rotation" />
+        <item itemvalue="Python.集合" />
+        <item itemvalue="Python.filter类型" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e99b190-98a1-431a-8c12-abc160e514e8" name="Default Changelist" comment="" />
+      <created>1612419808779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612419808779</updated>
+      <workItem from="1612419812157" duration="8000" />
+      <workItem from="1612419861443" duration="22000" />
+      <workItem from="1616396126345" duration="25902000" />
+      <workItem from="1617277014786" duration="6861000" />
+      <workItem from="1617677536683" duration="34915000" />
+      <workItem from="1617793458300" duration="1746000" />
+      <workItem from="1617951513608" duration="34015000" />
+      <workItem from="1619345605478" duration="175000" />
+      <workItem from="1619444637734" duration="1591000" />
+      <workItem from="1621833830655" duration="2813000" />
+      <workItem from="1622531018713" duration="6267000" />
+      <workItem from="1624254151590" duration="849000" />
+      <workItem from="1546300969058" duration="92000" />
+      <workItem from="1624338730379" duration="3831000" />
+      <workItem from="1625562087372" duration="17934000" />
+      <workItem from="1627274082464" duration="142000" />
+      <workItem from="1630123761006" duration="41000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="370" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625564897904">
+      <screen x="0" y="23" width="1254" height="777" />
+    </state>
+    <state x="370" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1254.777@0.23.1254.777" timestamp="1625564897904" />
+    <state width="1198" height="251" key="GridCell.Tab.0.bottom" timestamp="1625810508564">
+      <screen x="0" y="23" width="1256" height="777" />
+    </state>
+    <state width="1198" height="154" key="GridCell.Tab.0.bottom/0.23.1241.777@0.23.1241.777" timestamp="1624340551252" />
+    <state width="1198" height="154" key="GridCell.Tab.0.bottom/0.23.1242.777@0.23.1242.777" timestamp="1624341643709" />
+    <state width="1205" height="154" key="GridCell.Tab.0.bottom/0.23.1247.777@0.23.1247.777" timestamp="1621835538650" />
+    <state width="1205" height="154" key="GridCell.Tab.0.bottom/0.23.1253.777@0.23.1253.777" timestamp="1622538935943" />
+    <state width="1198" height="251" key="GridCell.Tab.0.bottom/0.23.1254.777@0.23.1254.777" timestamp="1625730885493" />
+    <state width="1198" height="251" key="GridCell.Tab.0.bottom/0.23.1255.777@0.23.1255.777" timestamp="1625810073726" />
+    <state width="1198" height="251" key="GridCell.Tab.0.bottom/0.23.1256.777@0.23.1256.777" timestamp="1625810508564" />
+    <state width="1198" height="251" key="GridCell.Tab.0.center" timestamp="1625810508563">
+      <screen x="0" y="23" width="1256" height="777" />
+    </state>
+    <state width="1198" height="154" key="GridCell.Tab.0.center/0.23.1241.777@0.23.1241.777" timestamp="1624340551251" />
+    <state width="1198" height="154" key="GridCell.Tab.0.center/0.23.1242.777@0.23.1242.777" timestamp="1624341643708" />
+    <state width="1205" height="154" key="GridCell.Tab.0.center/0.23.1247.777@0.23.1247.777" timestamp="1621835538649" />
+    <state width="1205" height="154" key="GridCell.Tab.0.center/0.23.1253.777@0.23.1253.777" timestamp="1622538935942" />
+    <state width="1198" height="251" key="GridCell.Tab.0.center/0.23.1254.777@0.23.1254.777" timestamp="1625730885492" />
+    <state width="1198" height="251" key="GridCell.Tab.0.center/0.23.1255.777@0.23.1255.777" timestamp="1625810073724" />
+    <state width="1198" height="251" key="GridCell.Tab.0.center/0.23.1256.777@0.23.1256.777" timestamp="1625810508563" />
+    <state width="1198" height="251" key="GridCell.Tab.0.left" timestamp="1625810508562">
+      <screen x="0" y="23" width="1256" height="777" />
+    </state>
+    <state width="1198" height="154" key="GridCell.Tab.0.left/0.23.1241.777@0.23.1241.777" timestamp="1624340551251" />
+    <state width="1198" height="154" key="GridCell.Tab.0.left/0.23.1242.777@0.23.1242.777" timestamp="1624341643707" />
+    <state width="1205" height="154" key="GridCell.Tab.0.left/0.23.1247.777@0.23.1247.777" timestamp="1621835538648" />
+    <state width="1205" height="154" key="GridCell.Tab.0.left/0.23.1253.777@0.23.1253.777" timestamp="1622538935942" />
+    <state width="1198" height="251" key="GridCell.Tab.0.left/0.23.1254.777@0.23.1254.777" timestamp="1625730885492" />
+    <state width="1198" height="251" key="GridCell.Tab.0.left/0.23.1255.777@0.23.1255.777" timestamp="1625810073724" />
+    <state width="1198" height="251" key="GridCell.Tab.0.left/0.23.1256.777@0.23.1256.777" timestamp="1625810508562" />
+    <state width="1198" height="251" key="GridCell.Tab.0.right" timestamp="1625810508564">
+      <screen x="0" y="23" width="1256" height="777" />
+    </state>
+    <state width="1198" height="154" key="GridCell.Tab.0.right/0.23.1241.777@0.23.1241.777" timestamp="1624340551252" />
+    <state width="1198" height="154" key="GridCell.Tab.0.right/0.23.1242.777@0.23.1242.777" timestamp="1624341643709" />
+    <state width="1205" height="154" key="GridCell.Tab.0.right/0.23.1247.777@0.23.1247.777" timestamp="1621835538649" />
+    <state width="1205" height="154" key="GridCell.Tab.0.right/0.23.1253.777@0.23.1253.777" timestamp="1622538935943" />
+    <state width="1198" height="251" key="GridCell.Tab.0.right/0.23.1254.777@0.23.1254.777" timestamp="1625730885493" />
+    <state width="1198" height="251" key="GridCell.Tab.0.right/0.23.1255.777@0.23.1255.777" timestamp="1625810073725" />
+    <state width="1198" height="251" key="GridCell.Tab.0.right/0.23.1256.777@0.23.1256.777" timestamp="1625810508564" />
+    <state width="1198" height="244" key="GridCell.Tab.1.bottom" timestamp="1625810009949">
+      <screen x="0" y="23" width="1255" height="777" />
+    </state>
+    <state width="1198" height="244" key="GridCell.Tab.1.bottom/0.23.1241.777@0.23.1241.777" timestamp="1624340295958" />
+    <state width="1198" height="244" key="GridCell.Tab.1.bottom/0.23.1255.777@0.23.1255.777" timestamp="1625810009949" />
+    <state width="1198" height="244" key="GridCell.Tab.1.center" timestamp="1625810009948">
+      <screen x="0" y="23" width="1255" height="777" />
+    </state>
+    <state width="1198" height="244" key="GridCell.Tab.1.center/0.23.1241.777@0.23.1241.777" timestamp="1624340295956" />
+    <state width="1198" height="244" key="GridCell.Tab.1.center/0.23.1255.777@0.23.1255.777" timestamp="1625810009948" />
+    <state width="1198" height="244" key="GridCell.Tab.1.left" timestamp="1625810009947">
+      <screen x="0" y="23" width="1255" height="777" />
+    </state>
+    <state width="1198" height="244" key="GridCell.Tab.1.left/0.23.1241.777@0.23.1241.777" timestamp="1624340295955" />
+    <state width="1198" height="244" key="GridCell.Tab.1.left/0.23.1255.777@0.23.1255.777" timestamp="1625810009947" />
+    <state width="1198" height="244" key="GridCell.Tab.1.right" timestamp="1625810009949">
+      <screen x="0" y="23" width="1255" height="777" />
+    </state>
+    <state width="1198" height="244" key="GridCell.Tab.1.right/0.23.1241.777@0.23.1241.777" timestamp="1624340295957" />
+    <state width="1198" height="244" key="GridCell.Tab.1.right/0.23.1255.777@0.23.1255.777" timestamp="1625810009949" />
+    <state x="301" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1630123761114">
+      <screen x="0" y="23" width="1250" height="777" />
+    </state>
+    <state x="319" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1621833830506" />
+    <state x="298" y="244" key="com.intellij.ide.util.TipDialog/0.23.1236.777@0.23.1236.777" timestamp="1627274081997" />
+    <state x="309" y="248" key="com.intellij.ide.util.TipDialog/0.23.1240.777@0.23.1240.777" timestamp="1623207914175" />
+    <state x="299" y="244" key="com.intellij.ide.util.TipDialog/0.23.1241.777@0.23.1241.777" timestamp="1624338909233" />
+    <state x="301" y="244" key="com.intellij.ide.util.TipDialog/0.23.1250.777@0.23.1250.777" timestamp="1630123761114" />
+    <state x="312" y="248" key="com.intellij.ide.util.TipDialog/0.23.1253.777@0.23.1253.777" timestamp="1622531019927" />
+    <state x="302" y="244" key="com.intellij.ide.util.TipDialog/0.23.1254.777@0.23.1254.777" timestamp="1625562089180" />
+    <state x="299" y="143" width="675" height="657" key="search.everywhere.popup" timestamp="1625806788117">
+      <screen x="0" y="23" width="1255" height="777" />
+    </state>
+    <state x="297" y="143" width="670" height="657" key="search.everywhere.popup/0.23.1247.777@0.23.1247.777" timestamp="1621834098173" />
+    <state x="299" y="143" width="674" height="657" key="search.everywhere.popup/0.23.1254.777@0.23.1254.777" timestamp="1625730347245" />
+    <state x="299" y="143" width="675" height="657" key="search.everywhere.popup/0.23.1255.777@0.23.1255.777" timestamp="1625806788117" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/web框架/Dockerfile/server/web-server/server.py</url>
+          <line>395</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/liantong$totation.coverage" NAME="totation Coverage Results" MODIFIED="1625810508537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/项目/log_rotation/main" />
+    <SUITE FILE_PATH="coverage/liantong$server.coverage" NAME="server Coverage Results" MODIFIED="1617793356348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架/Dockerfile/web-server" />
+    <SUITE FILE_PATH="coverage/liantong$test.coverage" NAME="test Coverage Results" MODIFIED="1618394867845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架/bottel框架" />
+    <SUITE FILE_PATH="coverage/liantong$tests.coverage" NAME="tests Coverage Results" MODIFIED="1617765384623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nova" />
+    <SUITE FILE_PATH="coverage/liantong$logger.coverage" NAME="logger Coverage Results" MODIFIED="1617680354493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架/Flask框架" />
+    <SUITE FILE_PATH="coverage/liantong$agent.coverage" NAME="agent Coverage Results" MODIFIED="1617093553850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架/Dockerfile/agent" />
+    <SUITE FILE_PATH="coverage/liantong$flask.coverage" NAME="flask第一节 Coverage Results" MODIFIED="1618461204674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架/Flask框架" />
+    <SUITE FILE_PATH="coverage/liantong$etcd.coverage" NAME="etcd Coverage Results" MODIFIED="1617183375065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etcd" />
+    <SUITE FILE_PATH="coverage/liantong$filter.coverage" NAME="filter类型 Coverage Results" MODIFIED="1625646764553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/模块/logging篇" />
+    <SUITE FILE_PATH="coverage/liantong$.coverage" NAME="集合 Coverage Results" MODIFIED="1625730885478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/基础类型" />
+    <SUITE FILE_PATH="coverage/liantong$shell.coverage" NAME="shell Coverage Results" MODIFIED="1617693109795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架/Flask框架" />
+    <SUITE FILE_PATH="coverage/liantong$Query.coverage" NAME="Query Coverage Results" MODIFIED="1617342512775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/记录/队列" />
+    <SUITE FILE_PATH="coverage/liantong$1.coverage" NAME="1 Coverage Results" MODIFIED="1617348654089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架/Flask框架" />
+    <SUITE FILE_PATH="coverage/liantong$client.coverage" NAME="client Coverage Results" MODIFIED="1624341640925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/网络" />
+    <SUITE FILE_PATH="coverage/liantong$ping.coverage" NAME="ping Coverage Results" MODIFIED="1617090142345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架/Dockerfile/agent" />
+    <SUITE FILE_PATH="coverage/liantong$Bottel.coverage" NAME="Bottel Coverage Results" MODIFIED="1618461441691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架/bottel框架" />
+  </component>
+</project>

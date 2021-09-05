@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/djangoProject.iml" filepath="$PROJECT_DIR$/.idea/djangoProject.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/JetBrains 暴力破解，无限重置，补丁/ide-eval-resetter/.idea/ide-eval-resetter.iml" filepath="$USER_HOME$/Downloads/JetBrains 暴力破解，无限重置，补丁/ide-eval-resetter/.idea/ide-eval-resetter.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../../git/Public/python-course/.idea/liantong.iml" filepath="$PROJECT_DIR$/../../../../git/Public/python-course/.idea/liantong.iml" />
     </modules>
   </component>

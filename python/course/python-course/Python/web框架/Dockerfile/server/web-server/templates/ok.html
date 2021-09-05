@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <style>
+        .The-pulley{
+
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            background-color: pink;
+        }
+
+        body {
+            padding: 0 0 0;
+        }
+        .h{
+
+            width: 100%;
+            height: 60px;
+            display: none;
+
+        }
+        .div1 {
+
+            height: 100%;
+            width: 100%;
+            float: left;
+
+        }
+        .select{
+            position: absolute;
+            top: -1px;
+            right: 0;
+            left: 1007px;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            float: right;
+
+
+        }
+        .medata a {
+
+            font-family: 微软雅黑;
+            font-size: 20px;
+            padding-top: 16px;
+            padding-right: 10px;
+
+        }
+        #jindu{
+
+            position: absolute;
+            top: 9px;
+            right:10px;
+            left: 150px;
+            width: 80px;
+            height: 40px;
+        }
+
+        #jindu li a{
+
+            font-size: 10px;
+            color: #56536A;
+
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="heard navbar navbar-inverse " >
+
+       <div class="medata">
+           <a class="navbar-brand">容器运营平台</a>
+
+           <div id="jindu" class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    功能栏
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a id="a1" href="#">进度查询</a></li>
+                  </ul>
+</div>
+</div>
+       </div>
+        <div class="select">
+            <input type="text" class="btn btn-default" placeholder="请输入检索内容">
+            <button class="btn btn-info" id="select-info">查询</button>
+        </div>
+
+</div>
+
+
+</div>
+
+    <div id=progress class="progress-bar h" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="">
+            1
+    </div>
+    <div class="div1">
+        <table class="table table-hover" id="tbList">
+            <tr>
+                <th>ID</th>
+                <th>IP</th>
+                <th>目录权限</th>
+                <th>目录是否存在</th>
+                <th>ping</th>
+                <th>操作</th>
+            </tr>
+            % for i in new_li:
+            <tr>
+                <td>{{ i["id"] }}</td>
+                <td>{{ i["client"] }}</td>
+                <td>{{ i["permissions"] }}</td>
+                <td>{{ i["directory"] }}</td>
+                <td>{{ i["ping"] }}</td>
+                <td>
+                    <button class="btn btn-info" id="case" data-target="#myModal" data-toggle="modal" >拉取文件</button>
+                </td>
+
+            </tr>
+            % end
+        </table>
+        <!-- 模态框（Modal） -->
+    <div class="modal fade head"  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">容器内文件路径</h4>
+            </div>
+            <div class="modal-body">
+                <span>需要拉取的文件</span>
+                <input type="text" class="form-control" id="inf" placeholder="需要拉取的文件,写决定路径">
+                <span>busybox内保存路径</span>
+                <input type="text" class="form-control" id="ind" placeholder="busybox内保存路径">
+                <span>scp端IP地址</span>
+                <input type="text" class="form-control" id="inip" placeholder="scp端IP地址">
+                <span>scp端账号</span>
+                <input type="text" class="form-control" id="inu" placeholder="scp端账号">
+                <span>scp端密码</span>
+                <input type="text" class="form-control" id="inp" placeholder="scp端密码">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" id="commit">提交</button>
+            </div>
+        </div><!-- /.modal-content -->
+     </div><!-- /.modal -->
+
+
+
+</div>
+
+    </div>
+    <div class="The-pulley">
+        <span>返回顶部</span>
+    </div>
+
+<div id="m1" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">完成进度</h4>
+      </div>
+      <div class="modal-body">
+             <table class="table table-hover" id="tbList">
+                 <tr>
+                     <th>名称</th>
+                     <th>文件名称</th>
+                     <th>状态</th>
+                 </tr>
+                % for n in data:
+                 <tr>
+                       <td>{{ n["name"]  }}</td>
+                       <td>{{ n["file"] }}</td>
+                       <td>{{ n["status"] }}</td>
+                 </tr>
+                 %end
+             </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button id="delete_file_info" type="button" class="btn btn-primary">清空列表</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script>
+    $('#delete_file_info').click(function () {
+
+        $.ajax(
+            {
+                url: "/delete_file_info/",
+                type: "POST",
+                async: false,
+            }
+        );
+        $('#m1').modal("hide");
+        window.location.reload()
+    });
+
+    $('#a1').click(function(){
+
+
+       $('#m1').modal("show")
+
+
+    });
+    $('.The-pulley').click(function () {
+        document.documentElement.scrollTop = 0;
+
+    });
+        global_dict = {};
+        flag = "";
+        $('#select-info').click(function () {
+
+            var info = $(this).parent().find('input').val();
+
+            if (info)   {
+                $.ajax(
+                    {
+                        url: "/select/",
+                        type: "POST",
+                        async: false,
+                        data: {
+
+                            info: info,
+
+                        }, success: function (data) {
+
+                            var j = JSON.parse(data);
+                            console.log(j);
+
+                            $('#tbList').empty();
+                            var th = "<table class=\"table table-hover\" id=\"tbList\"><tr>\n" +
+                                "                <th>ID</th>\n" +
+                                "                <th>IP</th>\n" +
+                                "                <th>目录权限</th>\n" +
+                                "                <th>目录是否存在</th>\n" +
+                                "                <th>ping</th>\n" +
+                                "                <th>操作</th>\n" +
+                                "            </tr></table>";
+                            var td = "<tr><td>" + j.id + "</td><td>" + j.client + "</td><td>" + j.permissions + "</td><td>" + j.directory + "</td><td>"+ j.ping +"</td><td><button class=\"btn btn-info\" id=\"case\" data-target=\"#myModal\" data-toggle=\"modal\" >拉取文件</button></td></tr>";
+                            $('#tbList').append(th);
+                            $('#tbList').append(td);
+                        }
+                    }
+                );
+            }else {
+
+                window.location.reload();
+
+            }
+
+            $("#select-info").parent().find('input').val("");
+
+        });
+
+        var t = [];
+        var add_array = [];
+
+            $('table').on("click","#adda", function () {
+                        alert("确认新增吗?");
+                        var f = $(this).parent().siblings();
+                        var l = f.length;
+                        var num = "";
+                        for (var i = 0; i < l; i++) {
+                            if ($(f[i]).text()) {
+                                add_array.push($(f[i]).text());
+                                var num = num + $(f[i]).text() + " ";
+                            }
+                        }
+                            console.log("addd----",add_array);
+                        var add_dict = {
+                              "id": add_array[0],
+                              "client": add_array[1],
+                              "permissions": add_array[2],
+                              "directory": add_array[3],
+                              "action": "add"
+                          };
+
+                            $.ajax(
+
+                                {
+                                    url: "/add/",
+                                    type: "POST",
+                                    dataType:'json',
+                                    data: {
+                                        info: JSON.stringify(add_dict),
+                                    },
+                                    success: function () {
+                                        alert("新增成功");
+                                },
+                                }
+
+                            );
+
+                        $('.progress-bar').removeClass("h");
+                        $('#myModal').modal("hide");
+
+                        $('#ind').val("");
+                        var add_dict = {};
+                        add_array = []
+                        });
+
+            var case_array = [];
+
+            $('table').on("click","#case", function (){
+
+                var k =$(this).parent().siblings();
+
+                var p = k.length;
+
+                  for (var i = 0; i < p; i++) {
+                      if ($(k[i]).text()){
+                          case_array.push($(k[i]).text())
+                      }
+                }
+              console.log(case_array)
+
+            });
+            $('#commit').click(function () {
+
+                    global_dict["Directory_path"] = $("#ind").val();
+                    global_dict["Directory_ip"] = $("#inip").val();
+                    global_dict["Directory_user"] = $("#inu").val();
+                    global_dict["Directory_password"] = $("#inp").val();
+                    global_dict["Directory_file"] = $("#inf").val()
+                    var new_dict = {
+                        "id": case_array[0],
+                        "client": case_array[1],
+                        "permissions": case_array[2],
+                        "directory": case_array[3],
+                        "remote_ip": global_dict.Directory_ip,
+                        "directory_path": global_dict.Directory_path,
+                        "Directory_user": global_dict.Directory_user,
+                        "Directory_password": global_dict.Directory_password,
+                        "Directory_file": global_dict.Directory_file,
+                        "action": "case"
+                    };
+                    console.log(new_dict);
+                    $.ajax(
+                        {
+                            url: "/case/",
+                            type: "POST",
+                            async: false,
+                            dataType: 'json',
+                            data: {
+                                info: JSON.stringify(new_dict)
+                            }, success: function (data) {
+                                console.log(data)
+                            }
+                        });
+                    $('#myModal').modal("hide");
+                    $('#ind').val("");
+                    var new_dict = {};
+                    case_array = [];
+                    window.location.reload()
+                });
+</script>
+</body>
+</html>
